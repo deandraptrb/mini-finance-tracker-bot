@@ -111,7 +111,7 @@ function sendMessage(chatId, text, token) {
 
 // run this to test without deploying
 function testMyBot() {
-  const testMessage = "zalsa ngasih 80k gopay"; // change this to test different scenarios
+  const testMessage = "test git"; // change this to test different scenarios
   const props = PropertiesService.getScriptProperties();
   const groqKey = props.getProperty('GROQ_API_KEY');
   const token = props.getProperty('TELEGRAM_BOT_TOKEN');
