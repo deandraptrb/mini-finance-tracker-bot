@@ -1,6 +1,6 @@
 // CENTRALIZED CONFIGURATION
 const CONFIG = {
-  SHEET_NAME: 'May26',
+  SHEET_NAME: Utilities.formatDate(new Date(), Session.getScriptTimeZone(), "MMM yy").replace(" ", ""),
   ACCOUNTS: ["BCA", "OCTO Pay", "OCTO Savers", "SHOPEE", "GOPAY", "OCTO Bonds", "OVO", "SAQU"],
   CATEGORIES: ["Personal", "Utang ayah & ibu", "Investasi", "Coffee Business", "Pindah duit", "Transportation"],
   DEFAULT_ACCOUNT: "BCA",
